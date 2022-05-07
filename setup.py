@@ -10,4 +10,10 @@ setup(
 	author_email='anurag.akkiraju@gmail.com',
 
 	py_modules=['anonymizer'],
+
+	install_requires=[
+		'setuptools',
+		'click',
+		'pathlib'
+	],
 )
