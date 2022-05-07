@@ -1,26 +1,28 @@
 from setuptools import setup, find_packages
-from error_anonymizer.anonymizer import __version__
-
+from error_anonymizer import __version__
+with open("README.md") as f:
+    readme = f.read()
 setup(
 	name='error_anonymizer',
 	version=__version__,
+	#description=readme,
 
 	url='https://github.com/maskedband1t/error-anonymizer',
 	author='Anurag Akkiraju',
 	author_email='anurag.akkiraju@gmail.com',
 
-	py_modules=['error-anonymizer'],
+	py_modules=['error_anonymizer'],
 	packages=find_packages(),
 
 	install_requires=[
 		'setuptools',
-		'click',
-		'pathlib'
+		'click==8.1.3',
+		'pathlib',
 	],
 
 	entry_points={
 		'console_scripts': [
-			'main=anonymizer:main',
+			'main=error_anonymizer:main',
 		],
 	},
 

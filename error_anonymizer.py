@@ -3,7 +3,7 @@
 # formatted using python black
 import click
 from pathlib import Path
-__version__ = 'dev'
+__version__ = '1.2.4'
 
 @click.command()
 @click.argument(

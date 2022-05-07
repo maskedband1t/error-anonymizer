@@ -1,6 +1,8 @@
 
 # Error Anonymizer
 
+PYPI: https://pypi.org/project/error-anonymizer/
+
 Anonymizes given console error messages (so your user/machine name isn't floating around the internet):
 
 Have you ever pasted your error in a github issue thread or a StackOverflow topic and immediately felt embarrased that your machine name or identifying info was still in the console output?
