@@ -19,3 +19,14 @@ By feeding this tool a (.txt) file of your given message, and providing the subs
 Very simple tool in scope, but can be quite handy for an ever-expanding group of users!
 
 
+
+## Authors
+
+- [Anurag Akkiraju](https://github.com/maskedband1t)
+
+
+## Badges
+
+[![PyPI version](https://badge.fury.io/py/error-anonymizer.svg)](https://badge.fury.io/py/error-anonymizer)
+
+
