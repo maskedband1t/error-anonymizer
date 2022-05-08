@@ -5,7 +5,7 @@ with open("README.md") as f:
 setup(
 	name='error_anonymizer',
 	version=__version__,
-	#description=readme,
+	description='Anonymize console error messages by redacting personal info',
 
 	url='https://github.com/maskedband1t/error-anonymizer',
 	author='Anurag Akkiraju',
